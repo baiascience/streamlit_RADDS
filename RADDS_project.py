@@ -24,6 +24,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
 ## FUNÇÃO CHECK DE SENHA
+## MUDANÇA DEVE OCORRER PERIODICAMENTE
 def check_password():
     """Returns `True` if the user had the correct password."""
 
